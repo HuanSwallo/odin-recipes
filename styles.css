@@ -1,8 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
+    margin: 0;
+    padding: 0;
     font-family: Roboto, sans-serif;
     background-color:burlywood
 }
 
+.list-container{
+    width: 400px;
+    background: #f8e768;
+    margin: 16px auto;
+    padding: 8px;
+}
+.list-content{
+    background: #e3f4ff;
+    margin-bottom:8px;
+    padding: 8px 8px; /* 16px represents top and bottom padding 8px represents left and right padding */
+}
 .title{
     background-color:khaki;
     font-weight: bold
